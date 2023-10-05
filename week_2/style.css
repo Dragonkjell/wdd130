@@ -1,0 +1,45 @@
+* {
+    border: 1px;
+}
+
+body {
+    font-size: 1.2em;
+}
+
+li {
+    background-color: rgb(31, 74, 214);
+    display: inline-block;
+    width: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.active {
+    color: white;
+}
+
+a:link,
+a.visited {
+    color: rgb(35, 187, 86);
+}
+
+a:hover {
+    color: rgb(155, 13, 221);
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    max-width: 800px;
+}
+
+.green {
+    background-color: brown;
+}
+
+.width50 {
+    max-width: 50vw;
+}
+
