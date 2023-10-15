@@ -2,6 +2,26 @@
     background-color: gray;
 }
 
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
 .fill {
-    max-width: 100px;
+    width: 100%;
+}
+
+.center {
+    padding: 2.5em;
+    display: flex;
+    gap: 3em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section img {
+    max-width: 20%;
+    border: 8px solid rgb(83, 81, 81);
+    border-radius: 50%;
 }
