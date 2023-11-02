@@ -12,7 +12,7 @@
 
 body {
     background-color: #CBC9C7;
-    font-family: papyrus, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -147,6 +147,10 @@ footer .social img {
     color: black;
     font-size: 2em;
     margin-top: 10px;
+}
+
+h4 {
+
 }
 
 .logo {
