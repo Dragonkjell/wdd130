@@ -40,6 +40,12 @@ nav a:hover {
     color: white;
 }
 
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
 #hero-msg h1 {
     text-align: center;
 }
@@ -52,7 +58,7 @@ nav a:hover {
     color: white;
 }
 
-section #hero-msg {
+#hero-msg section {
     grid-column: 2/3;
     grid-row: 1/2;
 }
@@ -144,13 +150,9 @@ footer .social img {
 }
 
 .home-title {
-    color: black;
+    color: white;
     font-size: 2em;
-    margin-top: 10px;
-}
-
-h4 {
-
+    margin-top: 50px;
 }
 
 .logo {
