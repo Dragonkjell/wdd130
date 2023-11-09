@@ -1,47 +1,58 @@
-/* * {
-    border: 1px solid;
-} */
-
-h1 {
-    color: white;
-}
-
-h1:hover {
-    color: black;
-}
-
-.center {
-    text-align: center;
-}
-
-.container {
-    width: 50%;
-    margin: auto;
+/* can put the first three on everything, especially the first one */
+* {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: darkslategray;
+    margin: 0 ;
+    font-size: 1.1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.post > img {
+    width: 100%;
+}
+
+.post_heading {
     text-align: center;
 }
 
-.picture {
-    max-width: 200px;
+.post_heading > p {
+    color: rgb(46, 68, 167);
+    margin-bottom: .1em;
+    font-size: .8em;
 }
 
-.small {
-    color: white;
-    font-size: small;
+h2 {
+    margin-top: 0;
 }
 
-.big {
+.main_text > p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.post_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(29, 29, 73);
     color: white;
-    font-size: 2em;
     text-align: center;
-    width: 400px;
-    margin: auto;
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: .5em;
 }
 
-.list {
-    color: black;
-    font-weight: bold;
+.post_footer > p {
+    border-right: 1px white solid;
+    margin: 0;
+    padding: .5em;
+}
+
+.post_footer span {
+    font-size: .8em;
 }
