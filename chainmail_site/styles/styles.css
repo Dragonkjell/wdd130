@@ -32,6 +32,12 @@ nav a {
     width: 100%;
 }
 
+@media screen and (max-width: 440px) {
+    nav a {
+        padding:.3em;
+    }
+}
+
 nav a:hover {
     background-color: #b69941;
     border-radius: 10%;
@@ -39,6 +45,7 @@ nav a:hover {
 
 .nav_buttons {
     width: 100%;
+    height: 100%;
     max-width: 250px;
     max-height: 250px;
     border-radius: 8%;
