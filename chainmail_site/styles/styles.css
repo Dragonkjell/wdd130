@@ -4,10 +4,10 @@
 
 body {
     margin: 0 auto;
-    max-width: 750px;
+    max-width: 720px;
     background-color: #1a1a13;
     color: #b69941;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #logo_link img {
